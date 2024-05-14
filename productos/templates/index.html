@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenidos al portal de productos solares de Sux Solar</h1>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="{% url 'termotanques' %}" role="button">Termotanques Solares</a>
+    <a class="btn btn-primary btn-lg" href="{% url 'luminarias' %}" role="button">Luminarias Solares</a>
+    <a class="btn btn-primary btn-lg" href="{% url 'otros_productos' %}" role="button">Otros Productos Solares</a>
+</div>
+{% endblock %}
