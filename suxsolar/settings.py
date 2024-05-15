@@ -105,4 +105,3 @@ EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'emails')
 
 # Configuración por defecto de clave primaria
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
